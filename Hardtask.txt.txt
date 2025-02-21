@@ -1,0 +1,13 @@
+INSTALLATION OF UBUNTU 
+
+Installed VMware for a virtual machine to install ubuntu without doing dual boot.i installed a desktop's iso  file for the installation of ubuntu to my VMware. I connected my iso file to VMware. And opened the virtual machine and ubuntu was setup up
+
+INSTALLATION OF ROS2
+
+I installed ROS2 by using the documentation //https://docs.ros.org/en/humble/index.html which is given in the pdf.
+After installation of ros2 and humble using the above pdf.We need to setup the environment. We need setup the environment for correct application of ros2 and humble. For every terminal we use to setup ros2 and humble we need to use source /opt/Ros/humble/setup. Bash this statement for the setuping of ros2 and humble in that terminal. For checking the humble is installed i just run the subscriber-listner.
+
+How i made a package by listener-subscriber and creating a node for turtle simulator
+
+First i installalled the turtle simulator then make the file publisher and subscriber file and while installing the package we use colcon build for connecting the dependencies between the publisher and subsriber and the file. We need connect a c-make file and package.xml using this Colcon. After installed we node and we run the publisher in one the subscriber and two terminal and run the 
+turtle in another we get a turtle simulator and and the turtle goes in spiral
